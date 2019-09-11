@@ -1,0 +1,24 @@
+{
+  "name": "testingtraviscircleci",
+  "version": "1.0.0",
+  "description": "Testing repo for testing various CI and CD frameworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "../test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tagating/learning.git"
+  },
+  "author": "Manjot Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tagating/learning/issues"
+  },
+  "homepage": "https://github.com/tagating/learning#readme",
+  "dependencies": {
+    "mocha": "^4.0.1",
+    "istanbul": "0.4.5",
+    "mock-require": "^3.0.2"
+  }
+}
